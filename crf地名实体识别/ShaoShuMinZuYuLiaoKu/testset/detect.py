@@ -15,6 +15,7 @@ import sys
 import json
 sys.path.append("..")
 from removetail import *
+import os
 # Created by David Teng on 18-4-1
 
 
@@ -86,6 +87,17 @@ def cmpline(dline, gline, truepath="trueans.txt", wrongdetecpath="wrongdetec.txt
     return truecount
     pass
 
+def deletmpfile():
+    """
+        计算精度前，前删除“trueans\undetectpath\wrongdetec三个文件”
+    :return:
+    """
+    filelist = ["trueans.txt", "undetectpath.txt", "wrongdetec.txt"]
+    for f in filelist:
+        if os.path.exists(f):
+            os.remove(f)
+    pass
+
 def clcaprecision(fpath, goldpath, fsum, goldsum):
     """
         计算识别结果的精度
@@ -95,6 +107,9 @@ def clcaprecision(fpath, goldpath, fsum, goldsum):
     :param goldsum: 标准切分包含的地名数
     :return: 准确率、召回率和F值
     """
+
+    deletmpfile()
+
     with open(fpath, "r")as rd:
         detectlines = rd.readlines()
 
@@ -138,9 +153,9 @@ def detecount(fpath):
     pass
 
 if __name__ == '__main__':
-    dsum = extractloc("goldset_1.txt", "tmp.txt")
-    gsum = extractloc("goldset_282行.txt", "tmpgold.txt")
-    clcaprecision("tmp.txt", "tmpgold.txt", dsum, gsum)
-
-    # detecount("wrongdetec.txt")
+    # dsum = extractloc("goldset_1.txt", "tmp.txt")
+    # gsum = extractloc("goldset_282行.txt", "tmpgold.txt")
+    # clcaprecision("tmp.txt", "tmpgold.txt", dsum, gsum)
+    #
+    detecount("wrongdetec.txt")
     pass

@@ -16,21 +16,19 @@
       <file leaf-file-name="removetail.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/removetail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="237" column="72" lean-forward="false" selection-start-line="237" selection-start-column="72" selection-end-line="240" selection-end-column="88" />
+            <state relative-caret-position="2447">
+              <caret line="252" column="0" lean-forward="true" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="clcaUtils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/clcaUtils.py">
+      <file leaf-file-name="neimenggu_new.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/neimenggu_new.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="199" column="21" lean-forward="true" selection-start-line="199" selection-start-column="21" selection-end-line="199" selection-end-column="21" />
-              <folding>
-                <element signature="e#190#214#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="2460" column="4" lean-forward="false" selection-start-line="2460" selection-start-column="2" selection-end-line="2460" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,7 +36,7 @@
       <file leaf-file-name="mktestset.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/mktestset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="1046">
               <caret line="89" column="8" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
               <folding>
                 <element signature="e#79#110#0" expanded="true" />
@@ -47,11 +45,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="goldset_282行.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/goldset_282行.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="928" column="24" lean-forward="false" selection-start-line="928" selection-start-column="24" selection-end-line="928" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testset_ngac.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/testset_ngac.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8621">
+              <caret line="867" column="26" lean-forward="false" selection-start-line="867" selection-start-column="26" selection-end-line="867" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="detect.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/detect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="145" column="8" lean-forward="true" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
+            <state relative-caret-position="285">
+              <caret line="158" column="5" lean-forward="true" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
               <folding>
                 <element signature="e#194#203#0" expanded="true" />
               </folding>
@@ -59,41 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neimenggu_new.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/neimenggu_new.txt">
+      <file leaf-file-name="wrongdetec.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/wrongdetec.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_undetecdic.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/new_undetecdic.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12995">
-              <caret line="565" column="3" lean-forward="false" selection-start-line="565" selection-start-column="3" selection-end-line="565" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xinjiang_new.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xinjiang_new.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="198" column="2" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xizang.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xizang.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="115">
+              <caret line="928" column="0" lean-forward="false" selection-start-line="928" selection-start-column="0" selection-end-line="928" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,27 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>[示范]/ns</find>
-      <find>红花</find>
-      <find>白音华</find>
-      <find>白云</find>
-      <find>煤</find>
-      <find>矿区</find>
-      <find>综合</find>
-      <find>资源</find>
-      <find>煤矿</find>
-      <find>煤炭</find>
-      <find>工程</find>
-      <find>工作</find>
-      <find>地区</find>
-      <find>布图</find>
-      <find>区划</find>
-      <find>试验</find>
-      <find>区一</find>
-      <find>生活区</find>
-      <find>石灰</find>
-      <find>工业园区</find>
-      <find>工业</find>
       <find>建设</find>
       <find>技术</find>
       <find>石油</find>
@@ -140,6 +107,27 @@
       <find>沙漠</find>
       <find>第二</find>
       <find>内蒙</find>
+      <find>结果</find>
+      <find>公司</find>
+      <find>开发区</find>
+      <find>城市</find>
+      <find>开发</find>
+      <find>发区</find>
+      <find>源开发</find>
+      <find>下水</find>
+      <find>塔什库尔干县</find>
+      <find>塔什库尔干</find>
+      <find>奇台县]/ns 大</find>
+      <find>大井</find>
+      <find>奇台县]/ns [大井</find>
+      <find>奇台县]/ns 大井</find>
+      <find>奇台县大井</find>
+      <find>县大</find>
+      <find>西藏</find>
+      <find>万阿尔</find>
+      <find>奇台县红</find>
+      <find>奇台县</find>
+      <find>沙泉</find>
     </findStrings>
     <replaceStrings>
       <replace>经济</replace>
@@ -183,7 +171,6 @@
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/test.py" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xinjiang.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/neimenggu.txt" />
-        <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xizang.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset_ngac.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/goldset.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/wrongdetec.path" />
@@ -191,18 +178,20 @@
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/tmp.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/tmpgold.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/undetectdic.txt" />
-        <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/goldset_282行.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/clcaUtils.py" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/mktestset.py" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/new_undetecdic.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xizang_new.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xinjiang_new.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/neimenggu_new.txt" />
-        <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/detect.py" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/removetail.py" />
+        <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xizang.txt" />
+        <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/wrongdetec.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/trueans.txt" />
         <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/undetectpath.txt" />
-        <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/wrongdetec.txt" />
+        <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/testset_ngac.txt" />
+        <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/goldset_282行.txt" />
+        <option value="$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/detect.py" />
       </list>
     </option>
   </component>
@@ -249,6 +238,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ShaoShuMinZuYuLiaoKu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crf地名实体识别" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crf地名实体识别" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShaoShuMinZuYuLiaoKu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testset" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -489,16 +496,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33690476" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33690476" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22389667" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22389667" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497309" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -756,22 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/testset_ngac.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8326">
-          <caret line="900" column="32" lean-forward="false" selection-start-line="900" selection-start-column="32" selection-end-line="900" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/goldset_282行.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="73" column="29" lean-forward="true" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xinjiang_neimeng_xizang.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -780,50 +772,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xizang_new.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="4958" column="5" lean-forward="false" selection-start-line="4958" selection-start-column="3" selection-end-line="4958" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/neimenggu_new.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xinjiang.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="1149" column="6" lean-forward="true" selection-start-line="1149" selection-start-column="6" selection-end-line="1149" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/new_undetecdic.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12995">
-          <caret line="565" column="3" lean-forward="false" selection-start-line="565" selection-start-column="3" selection-end-line="565" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xinjiang_new.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="198" column="2" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xizang.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -838,18 +790,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/removetail.py">
+    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/new_undetecdic.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="237" column="72" lean-forward="false" selection-start-line="237" selection-start-column="72" selection-end-line="240" selection-end-column="88" />
+        <state relative-caret-position="320">
+          <caret line="567" column="3" lean-forward="true" selection-start-line="567" selection-start-column="3" selection-end-line="567" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/wrongdetec.txt">
+    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xizang.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="1845" column="5" lean-forward="true" selection-start-line="1845" selection-start-column="5" selection-end-line="1845" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xizang_new.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="1861" column="2" lean-forward="true" selection-start-line="1861" selection-start-column="2" selection-end-line="1861" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/neimenggu_new.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="2460" column="4" lean-forward="false" selection-start-line="2460" selection-start-column="2" selection-end-line="2460" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/removetail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2447">
+          <caret line="252" column="0" lean-forward="true" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/xinjiang_new.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="1019" column="7" lean-forward="true" selection-start-line="1019" selection-start-column="7" selection-end-line="1019" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -870,9 +854,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/testset_ngac.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8621">
+          <caret line="867" column="26" lean-forward="false" selection-start-line="867" selection-start-column="26" selection-end-line="867" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/wrongdetec.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="928" column="0" lean-forward="false" selection-start-line="928" selection-start-column="0" selection-end-line="928" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/mktestset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="1046">
           <caret line="89" column="8" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
           <folding>
             <element signature="e#79#110#0" expanded="true" />
@@ -880,10 +880,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/goldset_282行.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="928" column="24" lean-forward="false" selection-start-line="928" selection-start-column="24" selection-end-line="928" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ShaoShuMinZuYuLiaoKu/testset/detect.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="145" column="8" lean-forward="true" selection-start-line="145" selection-start-column="8" selection-end-line="145" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="158" column="5" lean-forward="true" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
           <folding>
             <element signature="e#194#203#0" expanded="true" />
           </folding>
