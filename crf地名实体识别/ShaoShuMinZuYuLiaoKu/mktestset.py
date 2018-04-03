@@ -4,6 +4,7 @@
 # Created by David Teng on 18-3-30
 
 from clcaUtils import clcaUtils
+import jieba.posseg as pseg
 import jieba
 import codecs
 
@@ -29,6 +30,60 @@ def gettestset(sfpath, tfpath,step=100, mode='w'):
     with open(tfpath, mode)as wr:
         for line in anslines:
             wr.write(line)
+    pass
+
+def mkjiebalocdic():
+    """
+    将新疆、内蒙、西藏三地的地名列表加载jieba字典中
+    :return:
+    """
+    jieba.load_userdict("neimenggu_new.txt")
+    with open("xinjiang_new.txt", "r")as rd:
+        xinjiang_lines = rd.readlines()
+
+    with open("xizang_new.txt", "r")as rd:
+        xizang_lines = rd.readlines()
+
+    for xline in xinjiang_lines:
+        jieba.add_word(xline)
+    for xline in xizang_lines:
+        jieba.add_word(xline)
+
+def mktestset_jieba(fpath):
+    """
+
+    :param fpath:
+    :return:
+    """
+    mkjiebalocdic()
+
+    with open(fpath, 'r')as rd:
+        testlist = rd.readlines()
+
+    finalanslist = []
+    for item in testlist:
+        # 举例 ： "托斯台"在生成词典的语料库中没有，但是能识别出来
+        item = item.strip()
+        if item == "":
+            continue
+        strlist = pseg.cut(item)
+        anstr = ""
+        for s in strlist:
+            if s.flag == "ns":
+                anstr + " "
+                anstr += "[" + s.word + "]/ns"
+                anstr += " "
+            else:
+                anstr += s.word
+        print anstr.strip()
+        finalanslist.append(anstr.strip())
+    # print finalanslist
+
+    savepath = "testset/goldset_1_jieba.txt"
+    with codecs.open(savepath, "w", encoding='utf-8')as wr:
+        for line in finalanslist:
+            wr.write(line)
+            wr.write("\n")
     pass
 
 
@@ -85,7 +140,8 @@ if __name__ == '__main__':
     # gettestset("xizang_testset_ngac.txt", "testset_ngac.txt", mode='a')
 
     # 制作测试集
-    mktestset("testset/testset_ngac.txt", False)
+    # mktestset("testset/testset_ngac.txt", False)
+    mktestset_jieba("testset/testset_ngac.txt")
 
     # 语义
     "关于下发2007年度[自治区]/ns 两权使用费河价款出资（第三 批招标项目）[新疆]/ns [乌鲁木齐市]/ns [米东区]/ns [铁厂沟镇]/ns 等5个地质灾害专项勘查设计书评审意见的通知" # 完全识别正确

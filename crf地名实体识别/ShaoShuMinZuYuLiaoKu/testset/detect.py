@@ -154,8 +154,9 @@ def detecount(fpath):
 
 if __name__ == '__main__':
     # dsum = extractloc("goldset_1.txt", "tmp.txt")
-    # gsum = extractloc("goldset_282行.txt", "tmpgold.txt")
-    # clcaprecision("tmp.txt", "tmpgold.txt", dsum, gsum)
-    #
-    detecount("wrongdetec.txt")
+    dsum = extractloc("goldset_1_jieba.txt", "tmp.txt")
+    gsum = extractloc("goldset_282行.txt", "tmpgold.txt")
+    clcaprecision("tmp.txt", "tmpgold.txt", dsum, gsum)
+
+    # detecount("wrongdetec.txt")
     pass
