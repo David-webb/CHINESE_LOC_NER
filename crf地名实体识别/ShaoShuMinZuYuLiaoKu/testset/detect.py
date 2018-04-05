@@ -73,16 +73,25 @@ def cmpline(dline, gline, truepath="trueans.txt", wrongdetecpath="wrongdetec.txt
         wronglist.extend(dline)
 
     with open(truepath, "aw")as wr:
-        tmpstr = " ".join(truelist)+"\n" if truelist else "\n"
-        wr.write(tmpstr)
+        if not truelist:
+            wr.write("\n")
+        else:
+            tmpstr = " ".join(truelist)+"\n" if truelist else "\n"
+            wr.write(tmpstr)
 
     with open(wrongdetecpath, "aw")as wr:
-        tmpstr = " ".join(wronglist)+"\n" if wronglist else "\n"
-        wr.write(tmpstr)
+        if not wronglist:
+            wr.write("\n")
+        else:
+            tmpstr = " ".join(wronglist)+"\n" if wronglist else "\n"
+            wr.write(tmpstr)
 
     with open(undetecpath, "aw")as wr:
-        tmpstr = " ".join(undeteclist)+"\n" if undeteclist else "\n"
-        wr.write(tmpstr)
+        if not undeteclist:
+            wr.write("\n")
+        else:
+            tmpstr = " ".join(undeteclist)+"\n" if undeteclist else "\n"
+            wr.write(tmpstr)
 
     return truecount
     pass
@@ -128,10 +137,13 @@ def clcaprecision(fpath, goldpath, fsum, goldsum):
 
     pass
 
-def detecount(fpath):
+
+
+def detecount(fpath, mode=1):
     """
         对测试后生成的wrongdetec.txt、undetectpath.txt等文件做词频统计
     :param fpath: 文件路径
+    :param mdoe: 0或1, 0就是字长, 1就是根据词频
     :return:
     """
     wordDic = {}
@@ -146,17 +158,18 @@ def detecount(fpath):
                 wordDic[l] = 1
             else:
                 wordDic[l] += 1
-    anslist = sorted(wordDic.items(), key=lambda item: item[1], reverse=True)
+    anslist = sorted(wordDic.items(), key=lambda item: item[mode] if mode == 1 else len(item[mode]), reverse=True)
     for item in anslist:
         print item[0], ":", item[1]
         pass
     pass
 
 if __name__ == '__main__':
-    # dsum = extractloc("goldset_1.txt", "tmp.txt")
-    dsum = extractloc("goldset_1_jieba.txt", "tmp.txt")
+    dsum = extractloc("goldset_1.txt", "tmp.txt")
+    # dsum = extractloc("goldset_1_jieba.txt", "tmp.txt")
+
     gsum = extractloc("goldset_282行.txt", "tmpgold.txt")
     clcaprecision("tmp.txt", "tmpgold.txt", dsum, gsum)
 
-    # detecount("wrongdetec.txt")
+    detecount("wrongdetec.txt", 0)
     pass

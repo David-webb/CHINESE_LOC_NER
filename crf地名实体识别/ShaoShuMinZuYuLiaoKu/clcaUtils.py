@@ -191,7 +191,8 @@ class clcaUtils():
                     # print strlist[i - 1] + w, self.clcaconnprob(w, strlist[i - 1], "L")
                     # print w + strlist[i + 1], self.clcaconnprob(w, strlist[i + 1], "R")
                     # print strlist[i - 1] + w, "L"
-                    taglist[i-1] = self.clcaconnprob(w, strlist[i - 1], "L")
+                    if taglist[i-1] in [0, -1]:
+                        taglist[i-1] = self.clcaconnprob(w, strlist[i - 1], "L")
                     # print w + strlist[i + 1], "R"
                     taglist[i] = self.clcaconnprob(w, strlist[i + 1], "R")
                 pass

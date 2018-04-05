@@ -118,9 +118,26 @@ def mktestset(fpath, fullmode=False):
             if len(s) == 1:
                 anstr += s
             else:
-                anstr + " "
-                anstr += "[" + s + "]/ns"
-                anstr += " "
+                middlekeylist = [u"旗", u"市", u"县"]
+                for m in middlekeylist:
+                    if m in s and not s.endswith(m):
+                        s = s.split(m)
+                        s[0] += m
+                        break
+                if isinstance(s, unicode):
+                    anstr += " "
+                    anstr += "[" + s + "]/ns"
+                    anstr += " "
+                elif isinstance(s, list):
+                    for tmps in s:
+                        if len(tmps) > 1:
+                            anstr += " "
+                            anstr += "[" + tmps + "]/ns"
+                            anstr += " "
+                        else:
+                            anstr += tmps
+                else:
+                    print "未识别类型！",type(s)
         print anstr.strip()
         finalanslist.append(anstr.strip())
     # print finalanslist
@@ -140,8 +157,9 @@ if __name__ == '__main__':
     # gettestset("xizang_testset_ngac.txt", "testset_ngac.txt", mode='a')
 
     # 制作测试集
-    # mktestset("testset/testset_ngac.txt", False)
-    mktestset_jieba("testset/testset_ngac.txt")
+    mktestset("testset/testset_ngac.txt", False)
+    # mktestset_jieba("testset/testset_ngac.txt")
+
 
     # 语义
     "关于下发2007年度[自治区]/ns 两权使用费河价款出资（第三 批招标项目）[新疆]/ns [乌鲁木齐市]/ns [米东区]/ns [铁厂沟镇]/ns 等5个地质灾害专项勘查设计书评审意见的通知" # 完全识别正确
